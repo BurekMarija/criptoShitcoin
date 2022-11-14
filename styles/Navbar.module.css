@@ -1,0 +1,56 @@
+.navbar{
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    margin-top: -15px;
+}
+
+.links{
+    display:flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    color: rgb(247, 217, 19);
+
+
+}
+
+.links a{
+    margin-left: 20px;
+}
+
+.logoutBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(247, 217, 19, 1);
+
+}
+
+.logoutBox button, .logoutBox a{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.shitcoin{
+    position: absolute;
+    top:-10px;
+
+}
+
+.shitcoin img{
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.logoutBox button{
+    background-color: rgb(247, 217, 19);
+    width: 100px;
+    height: 25px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+

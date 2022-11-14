@@ -5,7 +5,12 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
-
+body{
+  background-color: rgb(31, 31, 31);
+  color: aliceblue;
+  margin-top: 35px;
+  
+}
 a {
   color: inherit;
   text-decoration: none;
@@ -15,12 +20,3 @@ a {
   box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
-}
