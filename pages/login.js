@@ -19,11 +19,10 @@ export default function login() {
     const korisnik= data.filter(user=> user.username===userInput.username)
       if(korisnik.length!==0){
         setUser(korisnik[0].username)
-        console.log(currentUser)
-        //window.location.href = "/" jel ti mene zezaš?
+        //window.location.href = "/" jel ti mene zezaš? Makne korisnika?
        }
       else{
-        alert("Neispravno, molimo pokušajte ponovo")
+        alert("Neispravno, molimo pokušajte ponovo ")
       }
     }
   
