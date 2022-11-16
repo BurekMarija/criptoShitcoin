@@ -1,8 +1,8 @@
 import React from 'react'
 import Link from 'next/link'
-import styles from "../../styles/Navbar.module.css"
-import {useAppContext} from "../context/state"
-import shitcoin from "../../public/shitcoin.jpg"
+import styles from "../styles/Navbar.module.css"
+import {useAppContext} from "../pages/context/state"
+import shitcoin from "../public/shitcoin.jpg"
 import Image from 'next/image'
 
 

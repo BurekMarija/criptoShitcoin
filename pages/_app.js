@@ -1,4 +1,4 @@
-import Layout from './components/Layout'
+import Layout from '../components/Layout'
 import '../styles/globals.css'
 import UserProvider from "./context/state"
 import Head from 'next/head'

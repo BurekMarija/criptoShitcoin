@@ -1,5 +1,5 @@
 import React from 'react'
-import News from './components/News'
+import News from '../components/News'
 import styles from "../styles/About.module.css"
 
 export default function about(articles) {

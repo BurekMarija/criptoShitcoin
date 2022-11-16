@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from "../../styles/About.module.css"
+import styles from "../styles/About.module.css"
 
 export default function News(props) {
     const fullTitle=props.article.title
