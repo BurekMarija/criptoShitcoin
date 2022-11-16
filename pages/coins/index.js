@@ -4,7 +4,6 @@ import styles from "../../styles/Coins.module.css"
 import Link from 'next/link'
 
 export default function CoinList({coinData}) {
-    console.log(coinData)
   return (
     <div className={styles.coinBox}>
       {coinData.coins.map(coin=> {

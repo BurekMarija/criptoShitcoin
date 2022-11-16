@@ -18,7 +18,11 @@
 }
 
 .links a{
-    margin-left: 20px;
+    margin-left: 10px;
+}
+
+.links a:hover{
+    text-decoration: underline;
 }
 
 .logoutBox{
@@ -30,27 +34,65 @@
 }
 
 .logoutBox button, .logoutBox a{
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .shitcoin{
     position: absolute;
-    top:-10px;
+    top:20px;
+    right: 70px;
 
 }
 
 .shitcoin img{
-    width: 100px;
+    width: 60px;
     height: auto;
     border-radius: 50%;
 }
 
 .logoutBox button{
     background-color: rgb(247, 217, 19);
-    width: 100px;
     height: 25px;
     border-radius: 5px;
     cursor: pointer;
 }
+
+.great{
+    display: none;
+}
+
+
+@media  (min-width:700px){
+    .shitcoin img{
+        display: inline;
+        width: 100px;
+        height: auto;
+        border-radius: 50%;
+    }
+
+    .shitcoin{
+        position: absolute;
+        top:-10px;
+        left: auto;
+        right: auto;
+    
+    }
+    .great{
+        display: inline;
+    }
+
+    .logoutBox button{
+        width: 100px;
+        height: 25px;
+    }
+
+    .logoutBox button, .logoutBox a{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .links a{
+        margin-left: 20px;
+    }
+} 
 

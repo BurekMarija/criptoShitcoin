@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 import styles from "../../styles/Navbar.module.css"
 import {useAppContext} from "../context/state"
-import shitcoin from "../../image/shitcoin.jpg"
+import shitcoin from "../../public/shitcoin.jpg"
 import Image from 'next/image'
 
 
@@ -14,6 +14,7 @@ console.log(currentUser, "korisnik")
     
   function logout(){
     setUser(null)
+    window.location.href = "/"
   }
 
   
@@ -29,7 +30,7 @@ console.log(currentUser, "korisnik")
       <div className={styles.logoutBox}>
       {currentUser===null &&<div><Link href="/login">Login</Link></div>}
       
-      {currentUser!==null &&<div>Hy {currentUser}</div>}
+      {currentUser!==null &&<div className={styles.great}>Hy {currentUser}</div>}
       {currentUser!==null &&<button onClick={logout}>Logout</button>}
       </div></div>
   )

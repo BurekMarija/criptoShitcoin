@@ -4,7 +4,6 @@ import styles from "../styles/About.module.css"
 
 export default function about(articles) {
   const allArticles=articles.articles
-  console.log(allArticles)
  const allNews=allArticles.map((news) => <News key={news.id} article={news}/>)
   return (
     <div>

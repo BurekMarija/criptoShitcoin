@@ -1,11 +1,7 @@
 .news{
-    max-width: 700px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 30px
 }
 
 .article{
@@ -18,6 +14,32 @@
     font-family: 'Luckiest Guy', cursive;
     color: orange;
     text-transform: uppercase;
+}
+
+@media  (min-width:400px) and (max-width:699px) {
+    .news{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px
+    }
+
+}
+
+
+@media screen and (min-width: 700px){
+    .news{
+        max-width: 700px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 30px
+    }
+
 }
 
 

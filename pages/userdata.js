@@ -17,8 +17,8 @@ const users= [
     },
 
     {
-        username: "lauraBurek",
-        password: "lauraBurek",
+        username: "test",
+        password: "test",
         coins: [{name:"ethereum", 
             quantity: 0.3}, 
             {name:"bitcoin", 
