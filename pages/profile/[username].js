@@ -1,8 +1,8 @@
 import React from 'react'
 import { useRouter } from 'next/router' 
-import userdata from "../userdata.js"
+import userdata from "../../components/userdata.js"
 import styles from "../../styles/Profile.module.css"
-import MyCoin from '../components/MyCoin.js'
+import MyCoin from '../../components/MyCoin'
 
 export default function Profile({coins}) {
     const [portfolioValue, setPortfolioValue]= React.useState()

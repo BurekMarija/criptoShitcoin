@@ -1,5 +1,5 @@
 import React from 'react'
-import data from "./userdata.js"
+import data from "../components/userdata.js"
 import styles from "../styles/Profile.module.css"
 import {useAppContext} from "./context/state.js"
 
