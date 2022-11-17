@@ -26,7 +26,7 @@ console.log(currentUser, "korisnik")
         {currentUser!==null && <Link href="/profile/[username]" as={`/profile/${currentUser}`}>Profile</Link>}
         <Link href="/coins">Coins</Link>
       </div>
-      <div className={styles.shitcoin}><Image src={shitcoin} alt=""/></div>
+      <div className={styles.shitcoin}><img src={shitcoin} alt=""/></div>
       <div className={styles.logoutBox}>
       {currentUser===null &&<div><Link href="/login">Login</Link></div>}
       
